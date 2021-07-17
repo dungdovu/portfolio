@@ -31,7 +31,7 @@ function Home() {
 
 
               <img src={homeLogo} alt="home pic" className="img-fluid" />
-            </Col>r
+            </Col>
           </Row>
         </Container>
       </Container>
