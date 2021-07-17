@@ -96,15 +96,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-             <Nav.Link
-              href="http://localhost:3000/pwa/"
-             target="_blank"
-             rel="noreferrer"
-             >
+            {/*<Nav.Item>*/}
+            {/* <Nav.Link*/}
+            {/*  href="http://localhost:3000/pwa/"*/}
+            {/* target="_blank"*/}
+            {/* rel="noreferrer"*/}
+            {/* >*/}
              {/*<ImBlog style={{ marginBottom: "2px" }} /> Blogs*/}
-             </Nav.Link>
-           </Nav.Item>
+           {/*  </Nav.Link>*/}
+           {/*</Nav.Item>*/}
 
             <Nav.Item className="fork-btn">
               <Button
