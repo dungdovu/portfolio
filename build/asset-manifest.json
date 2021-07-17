@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1cbc0803.chunk.css",
-    "main.js": "/portfolio/static/js/main.1ee51e7c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1ee51e7c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c1d122b9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c1d122b9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c4fbd62b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c4fbd62b.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.1cbc0803.chunk.css.map": "/portfolio/static/css/main.1cbc0803.chunk.css.map",
     "static/js/2.83ed8939.chunk.js.LICENSE.txt": "/portfolio/static/js/2.83ed8939.chunk.js.LICENSE.txt",
     "static/media/Daco_1264271.f1a484ed.png": "/portfolio/static/media/Daco_1264271.f1a484ed.png",
-    "static/media/DungCV.8760ec95.pdf": "/portfolio/static/media/DungCV.8760ec95.pdf",
+    "static/media/DungCV.bb2c1db5.pdf": "/portfolio/static/media/DungCV.bb2c1db5.pdf",
     "static/media/Vu.99f0fbb7.png": "/portfolio/static/media/Vu.99f0fbb7.png",
     "static/media/about2.5fcd4c49.png": "/portfolio/static/media/about2.5fcd4c49.png",
     "static/media/style.css": "/portfolio/static/media/pre.d4812f51.svg"
@@ -25,6 +25,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.83ed8939.chunk.js",
     "static/css/main.1cbc0803.chunk.css",
-    "static/js/main.1ee51e7c.chunk.js"
+    "static/js/main.c1d122b9.chunk.js"
   ]
 }
