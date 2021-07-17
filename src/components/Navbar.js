@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { BrowserRouter } from "react-router-dom";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -31,6 +32,7 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
+
     <Navbar
       expanded={expand}
       fixed="top"
