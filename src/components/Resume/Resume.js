@@ -72,6 +72,15 @@ function Resume() {
 
                   ]}
               />
+              <Resumecontent
+                  title="R&D Machine learning model, making the insightful and supervised application at Dankook University"
+                  date="March/2015-August/2016"
+                  content={[
+                      "Develop the social media analysis applications (e.g., GeoSocialBoundary, Detetecting human, spammer, and bot on the social network, sentiment analysis) by using R program.                      Develop IoT applications (e.g., Demo of smart home, smart car; Object tracing and detecting; lane detection applications"
+
+
+                  ]}
+              />
 
           </Col>
           <Col md={6} className="resume-right">
@@ -101,8 +110,7 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                'Mathematics of Information Technology and Complex Systems (Mitacs) : Fund for Basic Science',
-                'Research Program in collaboration with industrial partner.',
+                'Mathematics of Information Technology and Complex Systems (Mitacs) : Fund for Basic Science Research Program in collaboration with industrial partner.',
                 `National Research Foundation of Korea (NRF) and Ministry of of Science, ICT & Future Planning (MSIP) : Fund for Basic Science Research Program`,
                 "Brain Korea 21+ Program.",
                 "Samsung Electronic Vietnam Scholarship for the Excellent 5th Year-Student of Hanoi University of Science and Technology",
