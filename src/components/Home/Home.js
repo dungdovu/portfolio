@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/Daco_1264271.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { useTranslation } from 'react-i18next';
 
 function Home() {
   return (

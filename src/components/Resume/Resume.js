@@ -55,7 +55,7 @@ function Resume() {
                   date="Octorber/2017-Febuarary/2018"
                   content={[
                       "Research the application by using Python, and Android Studio, Webstorm, IntelliJ IDEA (e.g., Research the Object recognition and Hologram module)    ",
-                      "Create the language locale and UI module by using Reactjs, Momentjs, Redux-sagas at Timesheet project",
+                      "Create the language locate and UI module by using Reactjs, Momentjs, Redux-sagas at Timesheet project",
                       "Content-based image retrieval (CBIR) algorithm: show the information of detected object when user takes its' photo",
                       "Convert the text information of the detected object to the pure voice with English and French"
 
