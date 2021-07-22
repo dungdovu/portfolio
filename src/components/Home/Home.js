@@ -7,6 +7,8 @@ import Type from "./Type";
 import { useTranslation } from 'react-i18next';
 
 function Home() {
+  const { t } = useTranslation('common');
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -15,11 +17,11 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There! <span className="wave">👋🏻</span>
+                {t("Hi There!")} <span className="wave">👋🏻</span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                {t("I'M")}
                 <strong className="main-name"> DO DUNG VU</strong>
               </h1>
 
