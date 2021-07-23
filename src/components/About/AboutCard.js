@@ -22,7 +22,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> {t("Playing Sports like Hiking, Swimming, Table Tennis, and Gym")}
+              <ImPointRight /> {t("Playing Sports like Soccer, Hiking, Swimming, Table Tennis, and Gym")}
             </li>
             <li className="about-activity">
               <ImPointRight /> {t('Reading Books, Doing the social activities')}
