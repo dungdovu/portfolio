@@ -4,7 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import PaperCards from "./PaperCards";
 import { useTranslation } from 'react-i18next';
-
+import etsen from "../../Assets/recommandation-Do Dung Vu-eng.pages.pdf";
+import etsfr from "../../Assets/recommandation-Do Dung Vu-fra.pages.pdf";
+import dankook from "../../Assets/Dankook_Work.pdf";
+import bibliomondo from "../../Assets/Bibliomondo.pdf";
+import renesas from "../../Assets/Renesas.pdf"
 function Projects() {
   const { t } = useTranslation('common');
   return (
@@ -23,7 +27,8 @@ function Projects() {
 
               isBlog={false}
               title={t("Natural Language Generation Research at Korbit & Lincs Lab")}
-              description={t("Hint Generations project is the part of Korbit which was built with machine learning and state-of-the-art natural language processing technique. The results allows Korbi - an AI Tutor to generate hint based on the open source content with high student learning gain")}
+              description={t("Hint Generations project is the part of Korbit which was built with machine learning and state-of-the-art natural language processing technique and colloborated with Lincs Lab, L'École de technologie supérieure via MITACS. The results allow Korbi - an AI Tutor to generate hint based on the open source content with high student learning gain")}
+              link={etsen}
             />
           </Col>
 
@@ -33,14 +38,18 @@ function Projects() {
               isBlog={false}
               title={t("Research Shazam Image project and Develop the User Interface of the Timesheet project at Biliomondo")}
               description={t("Research the application by using Python, and Android Studio, Webstorm, IntelliJ IDEA (e.g., Research the Object recognition and Hologram module) by using CNN and Tensorflow. Create the language locale and UI module by using Reactjs, Momentjs, Redux-sagas at Timesheet projecty")}
+              link = {bibliomondo}
             />
           </Col>
+
           <Col md={6} className="project-card">
             <ProjectCard
 
                 isBlog={false}
                 title={t("Civil Infrastruture Platform project at Renesas")}
-                description={t("Apply OS patches and upgrades on a regular basis. Configure add new services as necessary and maintain a big system based on big data analysis. Upgrade and configure system software that supports infrastructure applications or Asset Management applications per project or operational needs (Yocto, bash shell)). Perform ongoing performance tuning, hardware upgrades, and resource optimization as required" )}           />
+                description={t("Apply OS patches and upgrades on a regular basis. Configure add new services as necessary and maintain a big system based on big data analysis. Upgrade and configure system software that supports infrastructure applications or Asset Management applications per project or operational needs (Yocto, bash shell)). Perform ongoing performance tuning, hardware upgrades, and resource optimization as required" )}
+                link = {renesas}
+            />
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
@@ -48,6 +57,7 @@ function Projects() {
                 isBlog={false}
                 title={t("Research Machine learning model, making the insightful and supervised application at Dankook University")}
                 description={t("Develop the social media analysis applications (e.g., GeoSocialBoundary, Detetecting human, spammer, and bot on the social network, sentiment analysis) by using R program.	Develop IoT applications (e.g., Demo of smart home, smart car; Object tracing and detecting; lane detection applications")}
+                link = {dankook}
                     />
           </Col>
 
