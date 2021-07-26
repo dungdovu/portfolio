@@ -42,6 +42,7 @@ function Home2() {
                 </b>
               </i>
               <br />
+
               <br />
               {t("Whenever possible I also  read books and improve myself.")}
               {t("I like")}  <b className="purple">{t("Sport")}</b> {t("and")}

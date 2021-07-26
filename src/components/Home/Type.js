@@ -11,7 +11,7 @@ function Type() {
         strings: [
           "R&D of Machine learning applications",
           "Natural Language Generation",
-          "Data Analysis",
+          "Big Data Analysis",
           "Researcher of Deep learning",
         ],
         autoStart: true,
