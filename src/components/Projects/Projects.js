@@ -26,8 +26,8 @@ function Projects() {
             <ProjectCard
 
               isBlog={false}
-              title={t("Natural Language Generation Research at Korbit & Lincs Lab")}
-              description={t("Hint Generations project is the part of Korbit which was built with machine learning and state-of-the-art natural language processing technique and colloborated with Lincs Lab, L'École de technologie supérieure via MITACS. The results allow Korbi - an AI Tutor to generate hint based on the open source content with high student learning gain")}
+              title={t("Natural Language Generation Research at Korbit.ai & Lincs Lab")}
+              description={t("Hint Generations project is the part of Korbit.ai which was built with machine learning and state-of-the-art natural language processing technique and colloborated with Lincs Lab, L'École de technologie supérieure via MITACS. The results allow Korbi - an AI Tutor to generate hint based on the open source content with high student learning gain")}
               link={etsen}
             />
           </Col>
