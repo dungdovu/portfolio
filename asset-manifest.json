@@ -1,31 +1,36 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.be389143.chunk.css",
-    "main.js": "/portfolio/static/js/main.a65e3bdd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a65e3bdd.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.67c6ea3f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.67c6ea3f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2d14ec69.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2d14ec69.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/portfolio/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.c990ad47.chunk.js": "/portfolio/static/js/2.c990ad47.chunk.js",
-    "static/js/2.c990ad47.chunk.js.map": "/portfolio/static/js/2.c990ad47.chunk.js.map",
+    "static/js/2.6d3986ae.chunk.js": "/portfolio/static/js/2.6d3986ae.chunk.js",
+    "static/js/2.6d3986ae.chunk.js.map": "/portfolio/static/js/2.6d3986ae.chunk.js.map",
     "static/js/3.4f0d8eff.chunk.js": "/portfolio/static/js/3.4f0d8eff.chunk.js",
     "static/js/3.4f0d8eff.chunk.js.map": "/portfolio/static/js/3.4f0d8eff.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/portfolio/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.be389143.chunk.css.map": "/portfolio/static/css/main.be389143.chunk.css.map",
-    "static/js/2.c990ad47.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c990ad47.chunk.js.LICENSE.txt",
+    "static/js/2.6d3986ae.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6d3986ae.chunk.js.LICENSE.txt",
+    "static/media/Bibliomondo.512b8a15.pdf": "/portfolio/static/media/Bibliomondo.512b8a15.pdf",
     "static/media/Daco_1264271.f1a484ed.png": "/portfolio/static/media/Daco_1264271.f1a484ed.png",
+    "static/media/Dankook_Work.218dea08.pdf": "/portfolio/static/media/Dankook_Work.218dea08.pdf",
     "static/media/DungCV.bb2c1db5.pdf": "/portfolio/static/media/DungCV.bb2c1db5.pdf",
+    "static/media/Renesas.615f974d.pdf": "/portfolio/static/media/Renesas.615f974d.pdf",
     "static/media/Vu.99f0fbb7.png": "/portfolio/static/media/Vu.99f0fbb7.png",
     "static/media/about2.5fcd4c49.png": "/portfolio/static/media/about2.5fcd4c49.png",
     "static/media/style.css": "/portfolio/static/media/pre.4410c5ba.svg",
+    "static/media/recommandation-Do Dung Vu-eng.pages.0c258037.pdf": "/portfolio/static/media/recommandation-Do Dung Vu-eng.pages.0c258037.pdf",
+    "static/media/recommandation-Do Dung Vu-fra.pages.4dc9a934.pdf": "/portfolio/static/media/recommandation-Do Dung Vu-fra.pages.4dc9a934.pdf",
     "static/media/sylvie.7b95e7b9.jpg": "/portfolio/static/media/sylvie.7b95e7b9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d14ec69.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.c990ad47.chunk.js",
+    "static/js/2.6d3986ae.chunk.js",
     "static/css/main.be389143.chunk.css",
-    "static/js/main.a65e3bdd.chunk.js"
+    "static/js/main.67c6ea3f.chunk.js"
   ]
 }
