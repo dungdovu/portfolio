@@ -10,6 +10,8 @@ import { SiPytorch, SiTensorflow,  } from "react-icons/si";
 import {GiArchiveResearch
 
 } from "react-icons/gi";
+import {GoClock} from "react-icons/go";
+import {GoDatabase} from "react-icons/go";
 import {BiAnalyse,BiMessageRoundedDetail,BiTimeFive} from "react-icons/bi"
 import {FaAssistiveListeningSystems} from "react-icons/fa"
 function Techstack() {
@@ -23,6 +25,12 @@ function Techstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <BiAnalyse />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <GoClock />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <GoDatabase />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <BiMessageRoundedDetail />
