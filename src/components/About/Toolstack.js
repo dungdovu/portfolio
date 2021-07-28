@@ -5,9 +5,10 @@ import {
   SiJupyter,
     SiAnaconda, SiMicrosoft, SiTableau,SiLatex
 } from "react-icons/si";
+import {DiScrum} from "react-icons/di"
 import {GrHadoop, GrDocker} from "react-icons/all";
 import {
-    DiIntellij, DiAtlassian,   DiGoogleCloudPlatform, DiMongodb
+    DiIntellij, DiAtlassian, DiPython, DiWebplatform, DiGithub,  DiGoogleCloudPlatform, DiMongodb
 } from "react-icons/di";
 function Toolstack() {
   return (
@@ -21,9 +22,22 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+    </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiGithub />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiWebplatform />
+        </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiAnaconda />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiScrum />
+        </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiLatex />
         </Col>
