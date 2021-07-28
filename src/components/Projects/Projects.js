@@ -100,7 +100,7 @@ Varun Gupta, Ekaterina Kochmar, D. D. Vu*, Robert Belfer,Joelle Pineau,Aaron Cou
 
             <PaperCards
 
-                description="D. D. Vu* and G. Kaddoum, A Smart Waste City Management System for Smart Cities Applications, in Advances in Wireless and Optical Comunications, Riga, Lativa, Nov. 2017  "
+                description="D. D. Vu* and G. Kaddoum, A Smart Waste City Management System for Smart Cities Applications, in Advances in Wireless and Optical Communications, Riga, Lativa, Nov. 2017  "
                 link  = "https://ieeexplore.ieee.org/document/8228538/"
             />
           </Col>
