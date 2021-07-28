@@ -76,7 +76,7 @@ function Projects() {
 
                 description="Ekaterina Kochmar, D. D. Vu*,
 Robert Belfer, Varun Gupta, Iulian Vlad Serban, Joelle Pineau, Automated Personalized Feedback ImprovesLearning Gains in an Intelligent Tutoring System, in Artificial Intelligence Education 2020  "
-                link  = "https://link.springer.com/chapter/10.1007/978-3-030-52240-7_26"
+                link  = "https://link.springer.com/epdf/10.1007/s40593-021-00267-x?sharing_token=YWPCKhoSVU-z8-H-0KWLUPe4RwlQNchNByi7wbcMAY7UjE1jRbvsnxOVLzAGeXwS1-cHi5b0awo7zruIECPAe8-37sZnE9WQxjwdvFDMUNaGBNYf5nmAVGrAFDgUMszcGV7IXo8_pe6iXgU2fAJolSN8U7UdiVmfPa04LXSgKg0%3D"
             />
           </Col>
           <Col md={12} className="paper-card">
