@@ -69,14 +69,7 @@ function Projects() {
         <p style={{ color: "white" }}>
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={12} className="paper-card">
 
-            <PaperCards
-
-                description="Cong Tran, D. D. Vu* , and  Won-Yong Shin, An Improved Approach for Estimating Social POI Boundaries With Textual Attributes on Social Media, in  Knowledge-Based Systems  2020"
-                link  = "https://www.sciencedirect.com/science/article/pii/S095070512030839X?utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_medium=email&utm_acid=149362166&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&CMX_ID=&utm_in=DM110556&utm_source=AC_"
-            />
-          </Col>
           <Col md={12} className="paper-card">
 
             <PaperCards
