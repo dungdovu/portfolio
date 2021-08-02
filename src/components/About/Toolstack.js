@@ -7,6 +7,8 @@ import {
 } from "react-icons/si";
 import {DiScrum} from "react-icons/di"
 import {GrHadoop, GrDocker} from "react-icons/all";
+import {FiCpu} from "react-icons/fi";
+
 import {
     DiIntellij, DiAtlassian, DiPython, DiWebplatform, DiGithub,  DiGoogleCloudPlatform, DiMongodb
 } from "react-icons/di";
@@ -22,6 +24,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <FiCpu />
+        </Col>
         <Col xs={4} md={2} className="tech-icons">
         <DiPython />
     </Col>
