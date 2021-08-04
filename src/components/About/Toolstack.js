@@ -8,10 +8,11 @@ import {
 import {DiScrum} from "react-icons/di"
 import {GrHadoop, GrDocker} from "react-icons/all";
 import {FiCpu} from "react-icons/fi";
-
+import streamlist from "../../Assets/streamlist.png"
 import {
     DiIntellij, DiAtlassian, DiPython, DiWebplatform, DiGithub,  DiGoogleCloudPlatform, DiMongodb
 } from "react-icons/di";
+import laptopImg from "../../Assets/about2.png";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -26,6 +27,9 @@ function Toolstack() {
       </Col>
         <Col xs={4} md={2} className="tech-icons">
             <FiCpu />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <img src={streamlist} alt="streamlist" width="193" height="130"/>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
         <DiPython />
