@@ -5,9 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import * as serviceWorker from './serviceWorker';
 import './i18n';
+
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+
   </React.StrictMode>,
   document.getElementById("root")
 );

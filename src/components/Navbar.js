@@ -106,15 +106,15 @@ function NavBar() {
               <LanguageDropDown/>
             </Nav.Item>
 
-            {/*<Nav.Item>*/}
-            {/* <Nav.Link*/}
-            {/*  href="http://localhost:3000/pwa/"*/}
-            {/* target="_blank"*/}
-            {/* rel="noreferrer"*/}
-            {/* >*/}
-             {/*<ImBlog style={{ marginBottom: "2px" }} /> Blogs*/}
-           {/*  </Nav.Link>*/}
-           {/*</Nav.Item>*/}
+            <Nav.Item>
+             <Nav.Link
+              href="https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AJsN-F4UWCQHMVOPHJmFZfQZjDTYeZZFMHB2WRgQeIRkJQtHi8Jpz-16j3nwYcL953uCao53bLCrh8y_RGQgtSbejLJD6CFwVZqigzgwVNkNhy1BPjy3sr8&user=cQHOUPoAAAAJ"
+             target="_blank"
+             rel="noreferrer"
+             >
+             <ImBlog style={{ marginBottom: "2px" }} /> GoogelScholar
+             </Nav.Link>
+           </Nav.Item>
 
 
             <Nav.Item className="fork-btn">

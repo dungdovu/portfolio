@@ -16,6 +16,17 @@ import common_fr from "./translations/fr/common.json";
 import common_en from "./translations/en/common.json";
 import ScrollToTop from "./components/ScrollToTop";
 
+import Chatbot from "react-chatbot-kit";
+import { ConditionallyRender } from "react-util-kit";
+import { ReactComponent as ButtonIcon } from "./Assets/icons/robot.svg";
+import config from './bots/docsbot/config';
+import MessageParser from './bots/docsbot/MessageParser';
+import ActionProvider from './bots/docsbot/ActionProvider';
+import ExamplesSection from "./components/Bot/ExamplesSection";
+
+
+
+
 i18next.init({
   //debug: true,
   interpolation: { escapeValue: false },  // React already does escaping
@@ -36,7 +47,7 @@ i18next.init({
 
 function App() {
   const [load, upadateLoad] = useState(true);
-
+  const [showChatbot, toggleChatbot] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -46,10 +57,12 @@ function App() {
   }, []);
 
   return (
+
     <Router basename={window.location.pathname || ''}>
 
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+
         <Navbar />
         <ScrollToTop />
         <Switch>
@@ -58,6 +71,7 @@ function App() {
               <Home />
             </I18nextProvider>
           </Route>
+
           <Route path="/project">
             <I18nextProvider i18n={ i18next }>
               <Projects />
@@ -74,9 +88,31 @@ function App() {
             </I18nextProvider>
           </Route>
         </Switch>
+
+
+        {/*<div className="app-chatbot-container">*/}
+        {/*  <ConditionallyRender*/}
+        {/*      ifTrue={showChatbot}*/}
+        {/*      show={*/}
+        {/*        <ExamplesSection/>*/}
+
+        {/*      }*/}
+        {/*  />*/}
+        {/*</div>*/}
+
+        {/*<button*/}
+        {/*    className="app-chatbot-button"*/}
+        {/*    onClick={() => toggleChatbot((prev) => !prev)}*/}
+        {/*>*/}
+        {/*  <ButtonIcon className="app-chatbot-button-icon" />*/}
+        {/*</button>*/}
+
         <Footer />
+
       </div>
+
     </Router>
+
   );
 }
 
