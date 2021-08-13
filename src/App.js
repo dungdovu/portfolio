@@ -22,9 +22,8 @@ import { ReactComponent as ButtonIcon } from "./Assets/icons/robot.svg";
 import config from "./components/Bot/docsbot/config";
 import MessageParser from "./components/Bot/docsbot/MessageParser";
 import ActionProvider from "./components/Bot/docsbot/ActionProvider";
+import ChatBot from "react-simple-chatbot"
 
-
-import CustomChatbot from "./components/SimpleBot";
 
 i18next.init({
   //debug: true,
@@ -43,7 +42,18 @@ i18next.init({
   }
 });
 
-
+const steps = [
+  {
+    id: '0',
+    message: 'Hi! I am a new baby chatbot',
+    trigger: '1',
+  },
+  {
+    id: '1',
+    message: 'and I continue learning :D, nice to meet you!',
+    end: true,
+  },
+];
 
 
 function App() {
@@ -95,12 +105,12 @@ function App() {
           <ConditionallyRender
               ifTrue={showChatbot}
               show={
-                <CustomChatbot />
-
-
-
-
-
+                // <Chatbot
+                //     config={config}
+                //     messageParser={MessageParser}
+                //     actionProvider={ActionProvider}
+                // />
+                  <ChatBot steps={steps} />
               }
           />
         </div>
