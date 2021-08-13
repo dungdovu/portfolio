@@ -112,7 +112,7 @@ function NavBar() {
              target="_blank"
              rel="noreferrer"
              >
-             <ImBlog style={{ marginBottom: "2px" }} /> GoogelScholar
+             <ImBlog style={{ marginBottom: "2px" }} /> GoogleScholar
              </Nav.Link>
            </Nav.Item>
 
