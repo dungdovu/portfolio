@@ -36,10 +36,14 @@ function Home() {
               <img src={homeLogo} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
+
         </Container>
       </Container>
+
       <Home2 />
+
     </section>
+
   );
 }
 

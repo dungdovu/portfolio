@@ -19,13 +19,12 @@ import ScrollToTop from "./components/ScrollToTop";
 import Chatbot from "react-chatbot-kit";
 import { ConditionallyRender } from "react-util-kit";
 import { ReactComponent as ButtonIcon } from "./Assets/icons/robot.svg";
-import config from './bots/docsbot/config';
-import MessageParser from './bots/docsbot/MessageParser';
-import ActionProvider from './bots/docsbot/ActionProvider';
-import ExamplesSection from "./components/Bot/ExamplesSection";
+import config from "./components/Bot/docsbot/config";
+import MessageParser from "./components/Bot/docsbot/MessageParser";
+import ActionProvider from "./components/Bot/docsbot/ActionProvider";
 
 
-
+import CustomChatbot from "./components/SimpleBot";
 
 i18next.init({
   //debug: true,
@@ -43,6 +42,8 @@ i18next.init({
     transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ol', 'li', 'img']
   }
 });
+
+
 
 
 function App() {
@@ -90,22 +91,26 @@ function App() {
         </Switch>
 
 
-        {/*<div className="app-chatbot-container">*/}
-        {/*  <ConditionallyRender*/}
-        {/*      ifTrue={showChatbot}*/}
-        {/*      show={*/}
-        {/*        <ExamplesSection/>*/}
+        <div className="app-chatbot-container">
+          <ConditionallyRender
+              ifTrue={showChatbot}
+              show={
+                <CustomChatbot />
 
-        {/*      }*/}
-        {/*  />*/}
-        {/*</div>*/}
 
-        {/*<button*/}
-        {/*    className="app-chatbot-button"*/}
-        {/*    onClick={() => toggleChatbot((prev) => !prev)}*/}
-        {/*>*/}
-        {/*  <ButtonIcon className="app-chatbot-button-icon" />*/}
-        {/*</button>*/}
+
+
+
+              }
+          />
+        </div>
+
+        <button
+            className="app-chatbot-button"
+            onClick={() => toggleChatbot((prev) => !prev)}
+        >
+          <ButtonIcon className="app-chatbot-button-icon" />
+        </button>
 
         <Footer />
 

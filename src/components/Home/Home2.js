@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Vu.png";
-import sylvie from "../../Assets/sylvie.jpg";
 import Tilt from "react-parallax-tilt";
 import { useTranslation } from 'react-i18next';
-
-
 import {
   AiFillGithub,
   AiOutlineTwitter,
