@@ -24,7 +24,7 @@ import MessageParser from "./components/Bot/docsbot/MessageParser";
 import ActionProvider from "./components/Bot/docsbot/ActionProvider";
 import ChatBot from "react-simple-chatbot"
 
-
+import BMIExample from "./chatchat";
 i18next.init({
   //debug: true,
   interpolation: { escapeValue: false },  // React already does escaping
@@ -42,18 +42,7 @@ i18next.init({
   }
 });
 
-const steps = [
-  {
-    id: '0',
-    message: 'Hi! I am a new baby chatbot',
-    trigger: '1',
-  },
-  {
-    id: '1',
-    message: 'Nice to meet you!',
-    end: true,
-  },
-];
+
 
 
 function App() {
@@ -110,7 +99,8 @@ function App() {
                 //     messageParser={MessageParser}
                 //     actionProvider={ActionProvider}
                 // />
-                  <ChatBot steps={steps} />
+                //   <ChatBot steps={steps} />
+                  <BMIExample />
               }
           />
         </div>
