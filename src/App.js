@@ -20,7 +20,6 @@ import { ConditionallyRender } from "react-util-kit";
 import { ReactComponent as ButtonIcon } from "./Assets/icons/robot.svg";
 
 import BMIExample from "./components/Bot/BMII";
-import ExampleDBPedia from "./components/Bot/Wiki";
 
 i18next.init({
   //debug: true,

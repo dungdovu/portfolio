@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import ChatBot from 'react-simple-chatbot';
 
 const BMI = (props) => {
+
     const { steps } = props;
     const height = steps.height.value;
     const weight = steps.weight.value;
@@ -58,41 +59,59 @@ class BMIExample extends Component {
                     },
                     {
                         id: '2',
-                        message: 'Let\'s calculate your BMI (Body Mass Index)',
+                        message: 'What is your name',
                         trigger: '3',
                     },
                     {
                         id: '3',
+                        user: true,
+                        trigger: '4',
+                    },
+
+                    {
+                        id: '4',
+                        message: 'Hi {previousValue}, nice to meet you!',
+                        trigger: '5',
+                    },
+
+                    {
+                        id: '5',
+                        message: 'Let\'s calculate your BMI (Body Mass Index)',
+                        trigger: '6',
+                    },
+                    {
+                        id: '6',
                         message: 'Please type your height (cm)',
                         trigger: 'height',
                     },
                     {
                         id: 'height',
                         user: true,
-                        trigger: '4',
+                        trigger: '7',
                         validator,
                     },
                     {
-                        id: '4',
+                        id: '7',
                         message: 'Please type your weight (kg)',
                         trigger: 'weight',
                     },
                     {
                         id: 'weight',
                         user: true,
-                        trigger: '5',
+                        trigger: '8',
                         validator,
                     },
                     {
-                        id: '5',
+                        id: '8',
                         message: 'Thanks! Check out your BMI',
-                        trigger: '6',
+                        trigger: '9',
                     },
                     {
-                        id: '6',
+                        id: '9',
                         component: <BMI />,
                         end: true,
                     },
+
                 ]}
             />
         );
