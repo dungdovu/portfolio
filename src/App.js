@@ -50,7 +50,7 @@ const steps = [
   },
   {
     id: '1',
-    message: 'and I continue learning :D, nice to meet you!',
+    message: 'Nice to meet you!',
     end: true,
   },
 ];
