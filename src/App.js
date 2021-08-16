@@ -16,16 +16,12 @@ import common_fr from "./translations/fr/common.json";
 import common_en from "./translations/en/common.json";
 import ScrollToTop from "./components/ScrollToTop";
 
-import Chatbot from "react-chatbot-kit";
 import { ConditionallyRender } from "react-util-kit";
 import { ReactComponent as ButtonIcon } from "./Assets/icons/robot.svg";
-import config from "./components/Bot/docsbot/config";
-import MessageParser from "./components/Bot/docsbot/MessageParser";
-import ActionProvider from "./components/Bot/docsbot/ActionProvider";
-import ChatBot from "react-simple-chatbot"
 
-import BMIExample from "./BMII";
-import ExampleDBPedia from "./Wiki";
+import BMIExample from "./components/Bot/BMII";
+import ExampleDBPedia from "./components/Bot/Wiki";
+
 i18next.init({
   //debug: true,
   interpolation: { escapeValue: false },  // React already does escaping
@@ -95,13 +91,8 @@ function App() {
           <ConditionallyRender
               ifTrue={showChatbot}
               show={
-                // <Chatbot
-                //     config={config}
-                //     messageParser={MessageParser}
-                //     actionProvider={ActionProvider}
-                // />
-                //   <ChatBot steps={steps} />
-                <ExampleDBPedia/>
+
+                <BMIExample/>
 
               }
           />

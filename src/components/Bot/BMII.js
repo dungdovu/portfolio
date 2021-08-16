@@ -24,6 +24,8 @@ const BMI = (props) => {
     );
 };
 
+
+
 BMI.propTypes = {
     steps: PropTypes.object,
 };
@@ -47,6 +49,7 @@ class BMIExample extends Component {
         return (
             <ChatBot
                 speechSynthesis={{ enable: true, lang: 'en' }}
+                recognitionEnable={true}
                 steps={[
                     {
                         id: '1',
