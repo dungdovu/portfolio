@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ba240e25.chunk.css",
-    "main.js": "/portfolio/static/js/main.a1ed2bf1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a1ed2bf1.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.7afddea9.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7afddea9.js.map",
+    "main.js": "/portfolio/static/js/main.e8bd7a79.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e8bd7a79.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1f68f7e6.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1f68f7e6.js.map",
     "static/css/2.d6dc494e.chunk.css": "/portfolio/static/css/2.d6dc494e.chunk.css",
-    "static/js/2.c41390dc.chunk.js": "/portfolio/static/js/2.c41390dc.chunk.js",
-    "static/js/2.c41390dc.chunk.js.map": "/portfolio/static/js/2.c41390dc.chunk.js.map",
-    "static/js/3.a6b0acab.chunk.js": "/portfolio/static/js/3.a6b0acab.chunk.js",
-    "static/js/3.a6b0acab.chunk.js.map": "/portfolio/static/js/3.a6b0acab.chunk.js.map",
+    "static/js/2.1142e1e2.chunk.js": "/portfolio/static/js/2.1142e1e2.chunk.js",
+    "static/js/2.1142e1e2.chunk.js.map": "/portfolio/static/js/2.1142e1e2.chunk.js.map",
+    "static/js/3.0c8d1da6.chunk.js": "/portfolio/static/js/3.0c8d1da6.chunk.js",
+    "static/js/3.0c8d1da6.chunk.js.map": "/portfolio/static/js/3.0c8d1da6.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.d6dc494e.chunk.css.map": "/portfolio/static/css/2.d6dc494e.chunk.css.map",
     "static/css/main.ba240e25.chunk.css.map": "/portfolio/static/css/main.ba240e25.chunk.css.map",
-    "static/js/2.c41390dc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c41390dc.chunk.js.LICENSE.txt",
+    "static/js/2.1142e1e2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1142e1e2.chunk.js.LICENSE.txt",
     "static/media/Bibliomondo.512b8a15.pdf": "/portfolio/static/media/Bibliomondo.512b8a15.pdf",
     "static/media/Daco_1264271.f1a484ed.png": "/portfolio/static/media/Daco_1264271.f1a484ed.png",
     "static/media/Dankook_Work.218dea08.pdf": "/portfolio/static/media/Dankook_Work.218dea08.pdf",
@@ -32,10 +32,10 @@
     "static/media/times-circle.ebe58b45.svg": "/portfolio/static/media/times-circle.ebe58b45.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7afddea9.js",
+    "static/js/runtime-main.1f68f7e6.js",
     "static/css/2.d6dc494e.chunk.css",
-    "static/js/2.c41390dc.chunk.js",
+    "static/js/2.1142e1e2.chunk.js",
     "static/css/main.ba240e25.chunk.css",
-    "static/js/main.a1ed2bf1.chunk.js"
+    "static/js/main.e8bd7a79.chunk.js"
   ]
 }
