@@ -46,10 +46,11 @@ class BMIExample extends Component {
 
         return (
             <ChatBot
+                speechSynthesis={{ enable: true, lang: 'en' }}
                 steps={[
                     {
                         id: '1',
-                        message: 'Welcome to react chatbot!',
+                        message: 'Hi, I am the BMI bot',
                         trigger: '2',
                     },
                     {

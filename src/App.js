@@ -24,7 +24,8 @@ import MessageParser from "./components/Bot/docsbot/MessageParser";
 import ActionProvider from "./components/Bot/docsbot/ActionProvider";
 import ChatBot from "react-simple-chatbot"
 
-import BMIExample from "./chatchat";
+import BMIExample from "./BMII";
+import ExampleDBPedia from "./Wiki";
 i18next.init({
   //debug: true,
   interpolation: { escapeValue: false },  // React already does escaping
@@ -100,7 +101,8 @@ function App() {
                 //     actionProvider={ActionProvider}
                 // />
                 //   <ChatBot steps={steps} />
-                  <BMIExample />
+                <ExampleDBPedia/>
+
               }
           />
         </div>
