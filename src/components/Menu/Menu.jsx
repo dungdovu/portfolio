@@ -6,7 +6,6 @@ const Menu = () => {
   return (
     <div className="menu">
       <a
-        href="https://github.com/FredrikOseberg/react-chatbot-kit"
         target="_blank"
         rel="noopener noreferrer"
         className="menu-link"
