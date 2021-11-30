@@ -29,7 +29,7 @@ function Resume() {
             <h3 className="resume-title">{t("Experience")}</h3>
             <Resumecontent
               title={t("Natural language generator at Korbit")}
-              date={t("July/2018-now")}
+              date={t("July/2018-November/2021")}
               content={t("Korbit JD")}
             />
               <Resumecontent
