@@ -12,7 +12,13 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+const Mailto = ({ email, subject = '', body = '', children }) => {
+  let params = subject || body ? '?' : '';
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
 
+  return <a href={`mailto:${email}${params}`}>{children}</a>;
+};
 
 function Home2() {
   const { t } = useTranslation('common');
@@ -93,11 +99,12 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
+
                 <a
-                    href="vudodung85@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
+                href={`mailto:vudodung85@gmail.com`}
                 >
                   <AiOutlineMail />
                 </a>
