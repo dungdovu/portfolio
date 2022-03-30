@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.91841e68.chunk.css",
-    "main.js": "/portfolio/static/js/main.a2040e78.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a2040e78.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ab175f0a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ab175f0a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.63c69317.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.63c69317.js.map",
     "static/css/2.d6dc494e.chunk.css": "/portfolio/static/css/2.d6dc494e.chunk.css",
-    "static/js/2.32d0f9ce.chunk.js": "/portfolio/static/js/2.32d0f9ce.chunk.js",
-    "static/js/2.32d0f9ce.chunk.js.map": "/portfolio/static/js/2.32d0f9ce.chunk.js.map",
+    "static/js/2.96f9cb97.chunk.js": "/portfolio/static/js/2.96f9cb97.chunk.js",
+    "static/js/2.96f9cb97.chunk.js.map": "/portfolio/static/js/2.96f9cb97.chunk.js.map",
     "static/js/3.b91c36d8.chunk.js": "/portfolio/static/js/3.b91c36d8.chunk.js",
     "static/js/3.b91c36d8.chunk.js.map": "/portfolio/static/js/3.b91c36d8.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.d6dc494e.chunk.css.map": "/portfolio/static/css/2.d6dc494e.chunk.css.map",
     "static/css/main.91841e68.chunk.css.map": "/portfolio/static/css/main.91841e68.chunk.css.map",
-    "static/js/2.32d0f9ce.chunk.js.LICENSE.txt": "/portfolio/static/js/2.32d0f9ce.chunk.js.LICENSE.txt",
+    "static/js/2.96f9cb97.chunk.js.LICENSE.txt": "/portfolio/static/js/2.96f9cb97.chunk.js.LICENSE.txt",
     "static/media/Bibliomondo.512b8a15.pdf": "/portfolio/static/media/Bibliomondo.512b8a15.pdf",
     "static/media/Daco_1264271.f1a484ed.png": "/portfolio/static/media/Daco_1264271.f1a484ed.png",
     "static/media/Dankook_Work.218dea08.pdf": "/portfolio/static/media/Dankook_Work.218dea08.pdf",
@@ -23,14 +23,13 @@
     "static/media/about2.5fcd4c49.png": "/portfolio/static/media/about2.5fcd4c49.png",
     "static/media/style.css": "/portfolio/static/media/pre.4410c5ba.svg",
     "static/media/recommandation-Do Dung Vu-eng.pages.0c258037.pdf": "/portfolio/static/media/recommandation-Do Dung Vu-eng.pages.0c258037.pdf",
-    "static/media/recommandation-Do Dung Vu-fra.pages.4dc9a934.pdf": "/portfolio/static/media/recommandation-Do Dung Vu-fra.pages.4dc9a934.pdf",
     "static/media/robot.62307f18.svg": "/portfolio/static/media/robot.62307f18.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.63c69317.js",
     "static/css/2.d6dc494e.chunk.css",
-    "static/js/2.32d0f9ce.chunk.js",
+    "static/js/2.96f9cb97.chunk.js",
     "static/css/main.91841e68.chunk.css",
-    "static/js/main.a2040e78.chunk.js"
+    "static/js/main.ab175f0a.chunk.js"
   ]
 }
