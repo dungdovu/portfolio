@@ -34,7 +34,7 @@ function Resume() {
             />
               <Resumecontent
                   title={t("PhD Candidate on Artificial Intelligence at Lincs lab")}
-                  date={t("March/2018-now")}
+                  date={t("March/2018-April/2022")}
                   content={t("Lincs JD")}
 
 
@@ -65,8 +65,8 @@ function Resume() {
             <h3 className="resume-title">{t("Education")}</h3>
             <Resumecontent
               title={t("Ph.D.  candidate in Ecole de technologie superieure ")}
-              date={t("2018 - Now")}
-              content={t("GPA: 3.15/4. Thesis: Natural Language Generation for Intelligent Tutoring System")}
+              date={t("2018 - 2022")}
+              content={t("Percentage: 100%. GPA: 3.15/4. Thesis: Natural Language Generation for Intelligent Tutoring System")}
             />
             <Resumecontent
               title={t("Ph.D. student (Course) in Dankook University")}
@@ -81,7 +81,7 @@ function Resume() {
               <Resumecontent
                   title={t("Bachelor Hanoi University Of Science and Technology  ")}
                   date={t("2004 - 2009")}
-                  content={t("Percentage: 100%. GPA:8.12/10" )}
+                  content={t("Percentage: 100%. GPA:8.12/10. Thesis: Vehicle tracking with GPS system based on SMS, GPRS" )}
               />
             <h3 className="resume-title">{t("Scholarship and Achievements")}</h3>
             <Resumecontent
