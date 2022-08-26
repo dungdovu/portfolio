@@ -14,7 +14,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             {t('Hi Everyone, I am')} <span className="purple">Do Dung Vu </span>
             {t('from')} <span className="purple"> Montreal, Canada.</span>
-            <br />{t('I am a PhD Candidate at École de technologie supérieure ÉTS.')}
+            <br />{t('I am a Ph.D at École de technologie supérieure ÉTS.')}
             <br />
             <br/>
             <br />
