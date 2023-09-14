@@ -6,6 +6,8 @@ import PaperCards from "./PaperCards";
 import { useTranslation } from 'react-i18next';
 import etsen from "../../Assets/recommandation-Do Dung Vu-eng.pages.pdf";
 import etsfr from "../../Assets/recommandation-Do Dung Vu-fra.pages.pdf";
+import junction from "../../Assets/junctionAI.pdf";
+import stay22 from "../../Assets/stay22.pdf"
 import dankook from "../../Assets/Dankook_Work.pdf";
 import bibliomondo from "../../Assets/Bibliomondo.pdf";
 import renesas from "../../Assets/Renesas.pdf"
@@ -22,6 +24,28 @@ function Projects() {
           {t("Because of the non-disclosure terms, only the description and role of product projects are shown.")}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+                isBlog={false}
+                title={t("Recognition and Evaluation the meaning of Travel blog's content automatically")}
+                description={t("Create the automatically recognize the entities on the Blog to classify the Hotel Detail Page and Pin Search Result Page which is expected to increased the conversation rate to 20% Deploy the location normalization and location extraction service to clean the report from mixpanel which helps much the management system Deploy the commission forecasting service to help partners, manager, and supplier to see the potential commission with high accuracy")}
+                link={stay22}
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+                isBlog={false}
+                title={t("Automically content generation for e-commerce listing")}
+                description={t("Create the automatically generate content for listing on amazon, auto remove background and extract text from the photo. Deploy the customer sentiment analysis with 85% accuracy and 95% confidence interval, crawl data from Twitter for Federal Deploy the Machine learning model to engage and analysis the Election campaign such as Nolan chart analysis, Sentiment analysis, Co-occurent network analysis, and WordCloud analysis.")}
+                link={junction}
+            />
+          </Col>
+
+
+
           <Col md={6} className="project-card">
             <ProjectCard
 

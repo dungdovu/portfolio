@@ -28,12 +28,36 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">{t("Experience")}</h3>
             <Resumecontent
+                title={t("Senior Machine Learning Engineer at Stay22")}
+                date={t("April/2023-September/2023")}
+                content={t("Stay22 JD")}
+            />
+            <Resumecontent
+                title={t("ata Scientist Postdoc at Desjardin Bank")}
+                date={t("April/2022-November/2022")}
+                content={t("Junction JD")}
+            />
+            <Resumecontent
+                title={t("D")}
+                date={t("April/2022-April/2022")}
+                content={t("Desjardin JD")}
+            />
+
+
+            <Resumecontent
+                title={t("Natural language generator at Korbit")}
+                date={t("July/2018-November/2021")}
+                content={t("Korbit JD")}
+            />
+
+
+            <Resumecontent
               title={t("Natural language generator at Korbit")}
               date={t("July/2018-November/2021")}
               content={t("Korbit JD")}
             />
               <Resumecontent
-                  title={t("PhD Candidate on Artificial Intelligence at Lincs lab")}
+                  title={t("PhD on Artificial Intelligence at Lincs lab")}
                   date={t("March/2018-April/2022")}
                   content={t("Lincs JD")}
 
