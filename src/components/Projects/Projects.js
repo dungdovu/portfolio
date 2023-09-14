@@ -1,0 +1,157 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import PaperCards from "./PaperCards";
+import { useTranslation } from 'react-i18next';
+import etsen from "../../Assets/recommandation-Do Dung Vu-eng.pages.pdf";
+import etsfr from "../../Assets/recommandation-Do Dung Vu-fra.pages.pdf";
+import junction from "../../Assets/junctionAI.pdf";
+import stay22 from "../../Assets/stay22.pdf"
+import dankook from "../../Assets/Dankook_Work.pdf";
+import bibliomondo from "../../Assets/Bibliomondo.pdf";
+import renesas from "../../Assets/Renesas.pdf"
+function Projects() {
+  const { t } = useTranslation('common');
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          {t("My Recent")} <strong className="purple">{t("Projects")} </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          {t("Because of the non-disclosure terms, only the description and role of product projects are shown.")}
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+                isBlog={false}
+                title={t("Recognition and Evaluation the meaning of Travel blog's content automatically")}
+                description={t("Create the automatically recognize the entities on the Blog to classify the Hotel Detail Page and Pin Search Result Page which is expected to increased the conversation rate to 20% Deploy the location normalization and location extraction service to clean the report from mixpanel which helps much the management system Deploy the commission forecasting service to help partners, manager, and supplier to see the potential commission with high accuracy")}
+                link={stay22}
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+                isBlog={false}
+                title={t("Automically content generation for e-commerce listing")}
+                description={t("Create the automatically generate content for listing on amazon, auto remove background and extract text from the photo. Deploy the customer sentiment analysis with 85% accuracy and 95% confidence interval, crawl data from Twitter for Federal Deploy the Machine learning model to engage and analysis the Election campaign such as Nolan chart analysis, Sentiment analysis, Co-occurent network analysis, and WordCloud analysis.")}
+                link={junction}
+            />
+          </Col>
+
+
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+              isBlog={false}
+              title={t("Natural Language Generation Research at Korbit.ai & Lincs Lab")}
+              description={t("Hint Generations project is the part of Korbit.ai which was built with machine learning and state-of-the-art natural language processing technique and collaborated with Lincs Lab, L'École de technologie supérieure via MITACS. The results allows Korbi - an AI Tutor to generate hint based on the open source content with high student learning gain")}
+              link={etsen}
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+              isBlog={false}
+              title={t("Research Shazam Image project and Develop the User Interface of the Timesheet project at Biliomondo")}
+              description={t("Research the application by using Python, and Android Studio, Webstorm, IntelliJ IDEA (e.g., Research the Object recognition and Hologram module) by using CNN and Tensorflow. Create the language locale and UI module by using Reactjs, Momentjs, Redux-sagas at Timesheet projecty")}
+              link = {bibliomondo}
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+                isBlog={false}
+                title={t("Civil Infrastruture Platform project at Renesas")}
+                description={t("Apply OS patches and upgrades on a regular basis. Configure add new services as necessary and maintain a big system based on big data analysis. Upgrade and configure system software that supports infrastructure applications or Asset Management applications per project or operational needs (Yocto, bash shell)). Perform ongoing performance tuning, hardware upgrades, and resource optimization as required" )}
+                link = {renesas}
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCard
+
+                isBlog={false}
+                title={t("Research Machine learning model, making the insightful and supervised application at Dankook University")}
+                description={t("Develop the social media analysis applications (e.g., GeoSocialBoundary, Detetecting human, spammer, and bot on the social network, sentiment analysis) by using R program.	Develop IoT applications (e.g., Demo of smart home, smart car; Object tracing and detecting; lane detection applications")}
+                link = {dankook}
+                    />
+          </Col>
+
+
+        </Row>
+        <h1 className="project-heading">
+          {t("My Recent")} <strong className="purple">{t("Publications")} </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={12} className="paper-card">
+
+            <PaperCards
+
+                description="Ekaterina Kochmar, D. D. Vu*,
+Robert Belfer, Varun Gupta, Iulian Vlad Serban, Joelle Pineau, Automated Personalized Feedback ImprovesLearning Gains in an Intelligent Tutoring System, in Artificial Intelligence Education 2020  "
+                link  = "https://link.springer.com/epdf/10.1007/s40593-021-00267-x?sharing_token=YWPCKhoSVU-z8-H-0KWLUPe4RwlQNchNByi7wbcMAY7UjE1jRbvsnxOVLzAGeXwS1-cHi5b0awo7zruIECPAe8-37sZnE9WQxjwdvFDMUNaGBNYf5nmAVGrAFDgUMszcGV7IXo8_pe6iXgU2fAJolSN8U7UdiVmfPa04LXSgKg0%3D"
+            />
+          </Col>
+          <Col md={12} className="paper-card">
+
+            <PaperCards
+
+                description="Iulian Vlad Serban,
+Varun Gupta, Ekaterina Kochmar, D. D. Vu*, Robert Belfer,Joelle Pineau,Aaron Courville,Laurent Charlin,Yoshua Bengio, Korbit: A Large-Scale, Open-Domain,Mixed-Interface Dialogue-Based ITS for STEM, in  Artificial Intelligence Education 2020  "
+                link  = "https://link.springer.com/chapter/10.1007/978-3-030-52240-7_70 "
+            />
+          </Col>
+          <Col md={12} className="paper-card">
+
+            <PaperCards
+
+                description="Cong Tran, D. D. Vu* , and  Won-Yong Shin, An Improved Approach for Estimating Social POI Boundaries With Textual Attributes on Social Media, in  Knowledge-Based Systems  "
+                link  = "https://www.sciencedirect.com/science/article/pii/S095070512030839X?utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_medium=email&utm_acid=149362166&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&CMX_ID=&utm_in=DM110556&utm_source=AC_"
+            />
+          </Col>
+          <Col md={12} className="paper-card">
+
+            <PaperCards
+
+                description="D. D. Vu* and G. Kaddoum, A Smart Waste City Management System for Smart Cities Applications, in Advances in Wireless and Optical Communications, Riga, Lativa, Nov. 2017  "
+                link  = "https://ieeexplore.ieee.org/document/8228538/"
+            />
+          </Col>
+          <Col md={12} className="paper-card">
+
+            <PaperCards
+
+                description="W.-Y. Shin and D. D. Vu*, Density-based estimation of POI boundaries using geo-tagged tweets, Journal of KICS, vol. 42, no. 2, pp. 453-459, February 2017  "
+                link  = "http://koreascience.or.kr/article/ArticleFullRecord.jsp?cn=GCSHCI_2017_v42n2_453"
+            />
+          </Col>
+          <Col md={12} className="paper-card">
+
+            <PaperCards
+
+                description="D. D. Vu*, H. To, W.-Y. Shin, and C. Shahabi, GeoSocialBound: An efficient framework for estimating social POI boundaries using spatio-textual information, in Proceedings of the International ACM SIGMOD Workshop on Managing and Mining Enriched Geo-Spatio Data (GeoRich), San Francisco, CA, June 2016  "
+                link  = "https://dl.acm.org/citation.cfm?id=2948652"
+            />
+          </Col>
+
+
+
+
+        </Row>
+      </Container>
+    </Container>
+  );
+}
+
+export default Projects;
