@@ -6,7 +6,7 @@ import {
     SiAnaconda, SiMicrosoft, SiTableau,SiLatex
 } from "react-icons/si";
 import {DiScrum} from "react-icons/di"
-import {GrHadoop, GrDocker} from "react-icons/all";
+// import {GrHadoop, GrDocker} from "react-icons/all";
 import {FiCpu} from "react-icons/fi";
 import streamlist from "../../Assets/streamlist.png"
 import {
@@ -57,12 +57,12 @@ function Toolstack() {
             <DiAtlassian />
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons">
-            <GrHadoop />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <GrDocker />
-        </Col>
+        {/*<Col xs={4} md={2} className="tech-icons">*/}
+        {/*    <GrHadoop />*/}
+        {/*</Col>*/}
+        {/*<Col xs={4} md={2} className="tech-icons">*/}
+        {/*    <GrDocker />*/}
+        {/*</Col>*/}
             <Col xs={4} md={2} className="tech-icons">
                 <SiTableau />
         </Col>

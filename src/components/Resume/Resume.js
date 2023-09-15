@@ -28,13 +28,40 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">{t("Experience")}</h3>
             <Resumecontent
+                title={t("Senior Machine Learning Engineer at Stay22")}
+                date={t("April/2023-September/2023")}
+                content={t("Stay22 JD")}
+            />
+
+            <Resumecontent
+                title={t("Lead of Machine learning Specialist at Junction AI")}
+                date={t("April/2022-April/2023")}
+                content={t("Junction JD")}
+            />
+
+            <Resumecontent
+                title={t("Data Scientist Postdoc at Desjardin Bank")}
+                date={t("April/2022-November/2022")}
+                content={t("Desjardin JD")}
+            />
+
+
+
+            <Resumecontent
+                title={t("Natural language generator at Korbit")}
+                date={t("July/2018-November/2021")}
+                content={t("Korbit JD")}
+            />
+
+
+            <Resumecontent
               title={t("Natural language generator at Korbit")}
-              date={t("July/2018-now")}
+              date={t("July/2018-November/2021")}
               content={t("Korbit JD")}
             />
               <Resumecontent
-                  title={t("PhD Candidate on Artificial Intelligence at Lincs lab")}
-                  date={t("March/2018-now")}
+                  title={t("PhD on Artificial Intelligence at Lincs lab")}
+                  date={t("March/2018-April/2022")}
                   content={t("Lincs JD")}
 
 
@@ -65,8 +92,8 @@ function Resume() {
             <h3 className="resume-title">{t("Education")}</h3>
             <Resumecontent
               title={t("Ph.D.  candidate in Ecole de technologie superieure ")}
-              date={t("2018 - Now")}
-              content={t("GPA: 3.15/4. Thesis: Natural Language Generation for Intelligent Tutoring System")}
+              date={t("2018 - 2022")}
+              content={t("Percentage: 100%. GPA: 3.15/4. Thesis: Natural Language Generation for Intelligent Tutoring System")}
             />
             <Resumecontent
               title={t("Ph.D. student (Course) in Dankook University")}
@@ -81,7 +108,7 @@ function Resume() {
               <Resumecontent
                   title={t("Bachelor Hanoi University Of Science and Technology  ")}
                   date={t("2004 - 2009")}
-                  content={t("Percentage: 100%. GPA:8.12/10" )}
+                  content={t("Percentage: 100%. GPA:8.12/10. Thesis: Vehicle tracking with GPS system based on SMS, GPRS" )}
               />
             <h3 className="resume-title">{t("Scholarship and Achievements")}</h3>
             <Resumecontent
