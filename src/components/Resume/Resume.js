@@ -32,16 +32,19 @@ function Resume() {
                 date={t("April/2023-September/2023")}
                 content={t("Stay22 JD")}
             />
+
             <Resumecontent
-                title={t("ata Scientist Postdoc at Desjardin Bank")}
-                date={t("April/2022-November/2022")}
+                title={t("Lead of Machine learning Specialist at Junction AI")}
+                date={t("April/2022-April/2023")}
                 content={t("Junction JD")}
             />
+
             <Resumecontent
-                title={t("D")}
-                date={t("April/2022-April/2022")}
+                title={t("Data Scientist Postdoc at Desjardin Bank")}
+                date={t("April/2022-November/2022")}
                 content={t("Desjardin JD")}
             />
+
 
 
             <Resumecontent
