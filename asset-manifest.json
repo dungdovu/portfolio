@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.28bba6ed.css",
-    "main.js": "/portfolio/static/js/main.239f00a9.js",
+    "main.js": "/portfolio/static/js/main.adab1be5.js",
     "static/js/377.8325c12b.chunk.js": "/portfolio/static/js/377.8325c12b.chunk.js",
     "static/media/Vu.png": "/portfolio/static/media/Vu.99f0fbb7309dcab83c04.png",
     "static/media/Dankook_Work.pdf": "/portfolio/static/media/Dankook_Work.218dea087ed45fd8e68e.pdf",
     "static/media/about2.png": "/portfolio/static/media/about2.5fcd4c493ef3a8213a60.png",
-    "static/media/DungCV.pdf": "/portfolio/static/media/DungCV.8cad924c8adf664ad220.pdf",
+    "static/media/DungCV.pdf": "/portfolio/static/media/DungCV.287294474ea4b13725bd.pdf",
     "static/media/Renesas.pdf": "/portfolio/static/media/Renesas.615f974dc513efd011fe.pdf",
     "static/media/stay22.pdf": "/portfolio/static/media/stay22.f7ad6dfa9519ae67ef20.pdf",
     "static/media/Daco_1264271.png": "/portfolio/static/media/Daco_1264271.f1a484ed0cdf33ad7343.png",
@@ -19,11 +19,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/robot.svg": "/portfolio/static/media/robot.62307f18a2bb6c1c73b9b60aea32a1d8.svg",
     "main.28bba6ed.css.map": "/portfolio/static/css/main.28bba6ed.css.map",
-    "main.239f00a9.js.map": "/portfolio/static/js/main.239f00a9.js.map",
+    "main.adab1be5.js.map": "/portfolio/static/js/main.adab1be5.js.map",
     "377.8325c12b.chunk.js.map": "/portfolio/static/js/377.8325c12b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28bba6ed.css",
-    "static/js/main.239f00a9.js"
+    "static/js/main.adab1be5.js"
   ]
 }
