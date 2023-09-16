@@ -35,15 +35,15 @@ function Home2() {
               <br />
               <br />{t("I am fluent in")}
               <i>
-                <b className="purple"> {t("Python, Pytorch, Elmo, Spacy, and R.")} </b>
+                <b className="purple"> {t("Python, Pytorch, Elmo, Spacy, Generative AI, LLM, GCP, AWS, Vertex, Data Bricks, and R.")} </b>
               </i>
               <br />
               <br />
               {t("I am a commitment man. My field of Interests are building new")};
               <i>
-                <b className="purple">{t("Machine Learning Technologies and Products")} </b> {t("and also in areas related to")}
+                <b className="purple">{t(" Machine Learning Technologies and Products")} </b> {t("and also in areas related to")}
                 <b className="purple">
-                  {t("Deep Learning and Natural Language Processing.")}
+                  {t(" Deep Learning and Natural Language Processing.")}
                 </b>
               </i>
               <br />
