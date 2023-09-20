@@ -19,8 +19,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import { ConditionallyRender } from "react-util-kit";
 import { ReactComponent as ButtonIcon } from "./Assets/icons/robot.svg";
 
-import BMIExample from "./components/Bot/BMII";
-import ExampleDBPedia from "./components/Bot/Wiki";
+// import BMIExample from "./components/Bot/BMII";
+// import ExampleDBPedia from "./components/Bot/Wiki";
 i18next.init({
   //debug: true,
   interpolation: { escapeValue: false },  // React already does escaping
@@ -86,23 +86,23 @@ function App() {
         </Switch>
 
 
-        <div className="app-chatbot-container">
-          <ConditionallyRender
-              ifTrue={showChatbot}
-              show={
+        {/*<div className="app-chatbot-container">*/}
+        {/*  <ConditionallyRender*/}
+        {/*      ifTrue={showChatbot}*/}
+        {/*      show={*/}
 
-                <BMIExample/>
+        {/*        <BMIExample/>*/}
 
-              }
-          />
-        </div>
+        {/*      }*/}
+        {/*  />*/}
+        {/*</div>*/}
 
-        <button
-            className="app-chatbot-button"
-            onClick={() => toggleChatbot((prev) => !prev)}
-        >
-          <ButtonIcon className="app-chatbot-button-icon" />
-        </button>
+        {/*<button*/}
+        {/*    className="app-chatbot-button"*/}
+        {/*    onClick={() => toggleChatbot((prev) => !prev)}*/}
+        {/*>*/}
+        {/*  <ButtonIcon className="app-chatbot-button-icon" />*/}
+        {/*</button>*/}
 
         <Footer />
 
